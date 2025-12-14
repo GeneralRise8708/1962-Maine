@@ -1,0 +1,224 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "1962 ME",
+            "summary": "<p> After the successful years of Eisenhower, we are now in the middle of President John F Kennedy's term. The 1962 Maine gubernatorial election starts with incumbent Governor John H. Reed facing re-election against Democrat Candidate Maynard Dolloff. The newspapers predict that this election will be a tossup and the results will be very narrow. But can Reed or Dolloff prove them wrong?</p>\n\n<p>Current Governor John H. Reed must reflect on his term and secure re-election.</p>\n\n<p>Democrat Maynard Dolloff must attack Reed on his policies and prove why he is the better candidate and secure the title of Governor. ",
+            "image_url": "https://i.imgur.com/nGE88Tr.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "1962 ME"
+    }
+]
+
+campaignTrail_temp.credits = "General_Rise8708 and E made the banner!"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 20,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+e.HomeStateText = "Home City:";
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "John H.",
+            "last_name": "Reed",
+            "election": 20,
+            "party": "Republican",
+            "state": "Fort Fairfield",
+            "priority": 1,
+            "description": "<p>After the death of Clinton Clauson on December 30th, 1959, President of the Maine Senate, John H. Reed was selected to be governor since he was first in line to the governorship. His tenure started in 1959, when Maine had four governors that same year. Reed was then elected to a full term as Governor in 1960, beating Frank M. Coffin by a margin of 5%.</p> \n<p> Now he stands with the challenge of securing re-election. Can he win re-election or will he be kicked out of the Governor's Mansion?</p>",
+            "color_hex": "#cc0000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/PwBX9dm.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 350,
+        "fields": {
+            "first_name": "Reed",
+            "last_name": "Campaign",
+            "election": 20,
+            "party": "Republican",
+            "state": "Across Maine",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#cc0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/7XG9Ae8.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>The State of Maine does not have a Lt Governor, therefore it will just be him and his campaign.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Maynard",
+            "last_name": "Dolloff",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/9wj5dVK.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 351,
+        "fields": {
+            "first_name": "Dolloff",
+            "last_name": "Campaign",
+            "election": 20,
+            "party": "Democratic",
+            "state": "All Across Maine",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 84657,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 351
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 130168,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 350
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#002a57",
+    "windowColor": "#004875",
+    "containerColor": "#0557c2",
+    "innerWindowColor": "#1c00a8",
+    "bannerImageUrl": "https://i.imgur.com/fE3tin1.png",
+    "backgroundImageUrl": "https://i.imgur.com/M1iYoGG.png",
+    "endingTextColor": "#000000",
+    "customQuote": "\"I was very happy in Fort Fairfield, was in the potato business, and so I had no thought whatsoever of running for higher office, but I succeeded a governor who died in office, and once the opportunity opened up, then I proceeded to make the best of it\" - John H. Reed",
+    "gameTitle": "THE MAINE TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE MAINE TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"I was very happy in Fort Fairfield, was in the potato business, and so I had no thought whatsoever of running for higher office, but I succeeded a governor who died in office, and once the opportunity opened up, then I proceeded to make the best of it" - John H. Reed</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#002a57";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#004875";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#0557c2";
+
+document.getElementById("header").src = "https://i.imgur.com/fE3tin1.png";
+
+document.body.background = "https://i.imgur.com/M1iYoGG.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#1c00a8!important;}</style>";
+
+//#endcode
