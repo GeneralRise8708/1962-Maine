@@ -222,3 +222,20 @@ document.body.background = "https://i.imgur.com/M1iYoGG.png";
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#1c00a8!important;}</style>";
 
 //#endcode
+
+// Remove VP Screen
+let z = new MutationObserver((mutationsList, observer) => {
+    $(document).on('click', '#candidate_id_button', () => {
+        $('#running_mate_id_button').click();
+    });
+
+    $(document).on('click', '#opponent_selection_id_back', () => {
+        $('#running_mate_id_back').click();
+    });
+
+    $(document).on('click', '#opponent_selection_id_button', () => {
+        observer.disconnect();
+    });
+});
+
+z.observe(document, { subtree: true, childList: true });
